@@ -1,0 +1,32 @@
+{
+  "Records": [
+    {
+      "eventName": "INSERT",
+      "dynamodb": {
+        "NewImage": {
+          "id": { "S": "abc-123" },
+          "name": { "S": "Jane Smith" },
+          "email": { "S": "jane@example.com" },
+          "rating": { "N": "5" },
+          "favoriteService": { "S": "Lambda" },
+          "comments": { "S": "Great course!" },
+          "submittedAt": { "S": "2026-03-20T12:00:00.000Z" }
+        }
+      }
+    },
+    {
+      "eventName": "INSERT",
+      "dynamodb": {
+        "NewImage": {
+          "id": { "S": "def-456" },
+          "name": { "S": "John Doe" },
+          "email": { "S": "john@example.com" },
+          "rating": { "N": "4" },
+          "favoriteService": { "S": "S3" },
+          "comments": { "S": "Very informative!" },
+          "submittedAt": { "S": "2026-03-20T12:05:00.000Z" }
+        }
+      }
+    }
+  ]
+}

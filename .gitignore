@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# AWS SAM build artifacts
+.aws-sam/
+
+# Environment and credentials
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db

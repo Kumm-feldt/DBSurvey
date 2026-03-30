@@ -1,0 +1,8 @@
+{
+  "body": "{\"name\":\"Jane Smith\",\"email\":\"jane@example.com\",\"rating\":\"5\",\"favoriteService\":\"Lambda\",\"comments\":\"Great course!\"}",
+  "httpMethod": "POST",
+  "path": "/submit",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
