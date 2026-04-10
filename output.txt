@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Outputs                                                                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Key                 ApiUrl                                                                                                                                                
+Description         URL for invoking SubmitSurvey; copy-and-paste this into index.html                                                                                    
+Value               https://3xmnp6v4kg.execute-api.us-east-1.amazonaws.com/prod/submit                                                                                    
+
+Key                 FrontendBucketName                                                                                                                                    
+Description         Name of S3 for frontend files                                                                                                                         
+Value               class-survey-surveyfrontendbucket-79adoidst7w5                                                                                                        
+
+Key                 FrontendUrl                                                                                                                                           
+Description         URL for survey web page                                                                                                                               
+Value               http://class-survey-surveyfrontendbucket-79adoidst7w5.s3-website-us-east-1.amazonaws.com                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
